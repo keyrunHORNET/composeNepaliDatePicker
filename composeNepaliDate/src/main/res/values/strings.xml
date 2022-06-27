@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="date_picker_cancel">Cancel</string>
+    <string name="date_picker_ok">OK</string>
+
+    <string name="Baisakh">Baisakh</string>
+    <string name="Jestha">Jestha</string>
+    <string name="Ashar">Ashar</string>
+    <string name="Shrawan">Shrawan</string>
+    <string name="Bhadra">Bhadra</string>
+    <string name="Ashoj">Ashoj</string>
+    <string name="Kartik">Kartik</string>
+    <string name="Mangsir">Mangsir</string>
+    <string name="Poush">Poush</string>
+    <string name="Magh">Magh</string>
+    <string name="Falgun">Falgun</string>
+    <string name="Chaitra">Chaitra</string>
+
+    <string name="weekday_1_short">S</string>
+    <string name="weekday_2_short">M</string>
+    <string name="weekday_3_short">T</string>
+    <string name="weekday_4_short">W</string>
+    <string name="weekday_5_short">T</string>
+    <string name="weekday_6_short">F</string>
+    <string name="weekday_7_short">S</string>
+
+    <string name="weekday_1_full">Sunday</string>
+    <string name="weekday_2_full">Monday</string>
+    <string name="weekday_3_full">Tuesday</string>
+    <string name="weekday_4_full">Wednesday</string>
+    <string name="weekday_5_full">Thursday</string>
+    <string name="weekday_6_full">Friday</string>
+    <string name="weekday_7_full">Saturday</string>
+
+    <string name="weekday_1">Sun</string>
+    <string name="weekday_2">Mon</string>
+    <string name="weekday_3">Tue</string>
+    <string name="weekday_4">Wed</string>
+    <string name="weekday_5">Thu</string>
+    <string name="weekday_6">Fri</string>
+    <string name="weekday_7">Sat</string>
+
+    <string-array name="days">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>22</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+    </string-array>
+</resources>

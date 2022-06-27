@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="date_picker_cancel">रद्द गर्नुहोस्</string>
+    <string name="date_picker_ok">भयो</string>
+
+    <string name="Baisakh">बैशाख</string>
+    <string name="Jestha">जेष्ठ</string>
+    <string name="Ashar">असार</string>
+    <string name="Shrawan">श्रावण</string>
+    <string name="Bhadra">भदौ</string>
+    <string name="Ashoj">आस्विन</string>
+    <string name="Kartik">कार्तिक</string>
+    <string name="Mangsir">मंसिर</string>
+    <string name="Poush">पुस</string>
+    <string name="Magh">माघ</string>
+    <string name="Falgun">फाल्गुन</string>
+    <string name="Chaitra">चैत्र</string>
+
+    <string name="weekday_1_short">आ</string>
+    <string name="weekday_2_short">सो</string>
+    <string name="weekday_3_short">मं</string>
+    <string name="weekday_4_short">बु</string>
+    <string name="weekday_5_short">बि</string>
+    <string name="weekday_6_short">शु</string>
+    <string name="weekday_7_short">श</string>
+
+    <string name="weekday_1_full">आइतबार</string>
+    <string name="weekday_2_full">सोमबार</string>
+    <string name="weekday_3_full">मंगलबार</string>
+    <string name="weekday_4_full">बुधबार</string>
+    <string name="weekday_5_full">बिहिबार</string>
+    <string name="weekday_6_full">शुक्रबार</string>
+    <string name="weekday_7_full">शनिबार</string>
+
+    <string name="weekday_1">आइत</string>
+    <string name="weekday_2">सोम</string>
+    <string name="weekday_3">मंगल</string>
+    <string name="weekday_4">बुध</string>
+    <string name="weekday_5">बिहि</string>
+    <string name="weekday_6">शुक्र</string>
+    <string name="weekday_7">शनि</string>
+
+
+    <string-array name="days">
+        <item>१</item>
+        <item>२</item>
+        <item>३</item>
+        <item>४</item>
+        <item>५</item>
+        <item>६</item>
+        <item>७</item>
+        <item>८</item>
+        <item>९</item>
+        <item>१०</item>
+        <item>११</item>
+        <item>१२</item>
+        <item>१३</item>
+        <item>१४</item>
+        <item>१५</item>
+        <item>१६</item>
+        <item>१७</item>
+        <item>१८</item>
+        <item>१९</item>
+        <item>२०</item>
+        <item>२१</item>
+        <item>२२</item>
+        <item>२३</item>
+        <item>२४</item>
+        <item>२५</item>
+        <item>२६</item>
+        <item>२७</item>
+        <item>२८</item>
+        <item>२९</item>
+        <item>३०</item>
+        <item>३१</item>
+        <item>३२</item>
+    </string-array>
+
+</resources>
