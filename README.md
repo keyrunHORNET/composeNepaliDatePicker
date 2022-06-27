@@ -1,6 +1,9 @@
 # Nepali Date picker Converter - Re in Compose
 
- This is a re-work of [Nepali Date Picker Converter](https://github.com/keyrunHORNET/date_picker_converter) in jetpack compose.
+ This is a re-work of [Nepali Date Picker Converter](https://github.com/keyrunHORNET/date_picker_converter) in jetpack compose and kotlin.
+ English Locale | Nepali Locale
+---- | ----  
+<img src="https://raw.githubusercontent.com/keyrunHORNET/composeNepaliDatePicker/main/english_calendar.gif" width="300" height="550">|<img src="https://raw.githubusercontent.com/keyrunHORNET/composeNepaliDatePicker/main/nepali_calendar.gif" width="300" height="550">
  
 ## Using Date Picker
 
