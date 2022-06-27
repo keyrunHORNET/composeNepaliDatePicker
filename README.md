@@ -13,17 +13,17 @@ Add it in your root build.gradle at the end of repositories:
 
 ```java
    allprojects {
-		 repositories {
-			  ...
-			  maven { url "https://jitpack.io" }
-		 }
+	repositories {
+	    ...
+	    maven { url "https://jitpack.io" }
 	}
+    }
  ```
 Add the dependency
 ```java
  dependencies {
-	       implementation 'com.github.keyrunHORNET:composeNepaliDatePicker:$version'
-	}
+     implementation 'com.github.keyrunHORNET:composeNepaliDatePicker:$version'
+}
  ```
  
 ## Using Date Picker
@@ -36,7 +36,7 @@ if (showDialog) {
         onDateSelected = { date ->
             // selected date 
         },
-      onDismiss = {
+        onDismiss = {
             showDialog = false
         }
     ) 
@@ -53,17 +53,17 @@ if (showDialog) {
 
 `NepaliDatePicker` can take additional arguments to customise picker to your needs
 
-* `startDate` as `NepaliDate` for the date you want to start with, in picker. Its current instance of date by default.
+* `startDate` of type `NepaliDate` for the date you want to start with, in picker. It's default value is current instance.
 
-* `showYearPickerFirst` as `Boolean` to show year picker first when picker is displayed. Its `true` by default and set it to false if you want month view as default view. Especially if you have limited date for selection in picker.
+* `showYearPickerFirst` of type `Boolean` to show year picker first when picker is displayed. Its `true` by default and set it to false if you want month view as default view. Especially if you have limited date for selection in picker.
 
-* `minDate` as `NepaliDate` to set the lower limit of date in picker.
+* `minDate` of type `NepaliDate` to set the lower limit of date in picker.
 
-* `maxDate` as `NepaliDate` to set upper limit of date in picker.
+* `maxDate` of type `NepaliDate` to set upper limit of date in picker.
 
-* `highlightDays` as `List<NepaliDate>`. This will highlight the given list of dates in picker.
+* `highlightDays` of type `List<NepaliDate>`. This will highlight the given list of dates in picker.
 
-* `disableDays` as `List<NepaliDate>`. This will disable selection of the given dates in picker.
+* `disableDays` of type `List<NepaliDate>`. This will disable selection of the given dates in picker.
 
 ## Using Date Converter
 
@@ -71,7 +71,7 @@ value when passed beyond the conversion range throws an `IllegalArgumentExceptio
 
 * Converting english Date to Nepali date (i.e A.D to B.S):
 ```kotlin
-NepaliDateUtils.adToBs(nepYY,nepMM,nepDD)
+NepaliDateUtils.adToBs(engYY,engMM,engDD)
 ```
 you can also pass the calendar instance as an argument
 
@@ -90,9 +90,9 @@ Accessible from `NepaliDateUtils`
 
 * `NepaliDateUtils.isNepDateInRange(int yy,int mm,int dd)` returns `true` if nepali date is within the range of conversion.
 
-* `getInstance()` public method of class `DateConverter` returns Nepali Date Model   
+* `NepaliDateUtils.getInstance()` returns current instance of Nepali date  
 
-* `getWeekDay(int nepYY, int nepMM, int nepDD)` public method of class `DateConverter` returns `int` [1-7] representing seven days of week
+* `NepaliDateUtils.fillMissingWeekDayValue(nepaliDate: NepaliDate)` will add missing dayOfWeek for a given NepaliDate.
 
 ## License
 
