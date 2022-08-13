@@ -308,7 +308,7 @@ private fun MonthDaysView(
         val isEnabled = (date in minDate..maxDate) && !(disableDays?.contains(date) ?: false)
 
         MonthDayViewItem(
-            day = stringArrayResource(id = R.array.days)[day-1],
+            day = displayWithLocale(day),
             isSelected = selectedItem == day,
             isHighlight = highlightDays?.contains(date) == true,
             isEnabled = isEnabled,
