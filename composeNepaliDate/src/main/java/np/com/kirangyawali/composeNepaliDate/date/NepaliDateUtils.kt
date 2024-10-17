@@ -65,9 +65,6 @@ object NepaliDateUtils {
         daysInMonthMap.put(1997, intArrayOf(0, 31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30))
         daysInMonthMap.put(1998, intArrayOf(0, 31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30))
         daysInMonthMap.put(1999, intArrayOf(0, 31, 32, 31, 32, 31, 30, 30, 30, 29, 29, 30, 31))
-
-
-        //old
         daysInMonthMap.put(2000, intArrayOf(0, 30, 32, 31, 32, 31, 30, 30, 30, 29, 30, 29, 31))
         daysInMonthMap.put(2001, intArrayOf(0, 31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30))
         daysInMonthMap.put(2002, intArrayOf(0, 31, 31, 32, 32, 31, 30, 30, 29, 30, 29, 30, 30))
@@ -150,15 +147,25 @@ object NepaliDateUtils {
         daysInMonthMap.put(2079, intArrayOf(0, 31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30))
         daysInMonthMap.put(2080, intArrayOf(0, 31, 32, 31, 32, 31, 30, 30, 30, 29, 29, 30, 30))
         daysInMonthMap.put(2081, intArrayOf(0, 31, 32, 31, 32, 31, 30, 30, 30, 29, 30, 29, 31))
-        daysInMonthMap.put(2082, intArrayOf(0, 30, 32, 31, 32, 31, 30, 30, 30, 29, 30, 30, 30))
-        daysInMonthMap.put(2083, intArrayOf(0, 31, 31, 32, 31, 31, 30, 30, 30, 29, 30, 30, 30))
-        daysInMonthMap.put(2084, intArrayOf(0, 31, 31, 32, 31, 31, 30, 30, 30, 29, 30, 30, 30))
-        daysInMonthMap.put(2085, intArrayOf(0, 31, 32, 31, 32, 30, 31, 30, 30, 29, 30, 30, 30))
-        daysInMonthMap.put(2086, intArrayOf(0, 30, 32, 31, 32, 31, 30, 30, 30, 29, 30, 30, 30))
-        daysInMonthMap.put(2087, intArrayOf(0, 31, 31, 32, 31, 31, 31, 30, 30, 29, 30, 30, 30))
-        daysInMonthMap.put(2088, intArrayOf(0, 30, 31, 32, 32, 30, 31, 30, 30, 29, 30, 30, 30))
-        daysInMonthMap.put(2089, intArrayOf(0, 30, 32, 31, 32, 31, 30, 30, 30, 29, 30, 30, 30))
-        daysInMonthMap.put(2090, intArrayOf(0, 30, 32, 31, 32, 31, 30, 30, 30, 29, 30, 30, 30))
+        daysInMonthMap.put(2082, intArrayOf(0, 31, 31, 31, 32, 31, 31, 30, 29, 30, 29, 30, 30))
+        daysInMonthMap.put(2083, intArrayOf(0, 31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30))
+        daysInMonthMap.put(2084, intArrayOf(0, 31, 32, 31, 32, 31, 30, 30, 30, 29, 29, 30, 31))
+        daysInMonthMap.put(2085, intArrayOf(0, 30, 32, 31, 32, 31, 30, 30, 30, 29, 30, 29, 31))
+        daysInMonthMap.put(2086, intArrayOf(0, 31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30))
+        daysInMonthMap.put(2087, intArrayOf(0, 31, 31, 32, 32, 31, 30, 30, 29, 30, 29, 30, 30))
+        daysInMonthMap.put(2088, intArrayOf(0, 31, 32, 31, 32, 31, 30, 30, 30, 29, 29, 30, 31))
+        daysInMonthMap.put(2089, intArrayOf(0, 30, 32, 31, 32, 31, 30, 30, 30, 29, 30, 29, 31))
+        daysInMonthMap.put(2090, intArrayOf(0, 31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30))
+        daysInMonthMap.put(2091, intArrayOf(0, 31, 31, 32, 32, 31, 30, 30, 29, 30, 29, 30, 30))
+        daysInMonthMap.put(2092, intArrayOf(0, 31, 32, 31, 32, 31, 30, 30, 30, 29, 29, 30, 31))
+        daysInMonthMap.put(2093, intArrayOf(0, 31, 31, 31, 32, 31, 31, 29, 30, 30, 29, 29, 31))
+        daysInMonthMap.put(2094, intArrayOf(0, 31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30))
+        daysInMonthMap.put(2095, intArrayOf(0, 31, 31, 32, 32, 31, 30, 30, 29, 30, 29, 30, 30))
+        daysInMonthMap.put(2096, intArrayOf(0, 31, 32, 31, 32, 31, 30, 30, 30, 29, 29, 30, 31))
+        daysInMonthMap.put(2097, intArrayOf(0, 31, 31, 31, 32, 31, 31, 29, 30, 30, 29, 30, 30))
+        daysInMonthMap.put(2098, intArrayOf(0, 31, 31, 32, 31, 31, 31, 30, 29, 30, 29, 30, 30))
+        daysInMonthMap.put(2099, intArrayOf(0, 31, 31, 32, 32, 31, 30, 30, 29, 30, 29, 30, 30))
+        daysInMonthMap.put(2100, intArrayOf(0, 31, 32, 31, 32, 31, 30, 30, 30, 29, 29, 30, 31))
 
         return daysInMonthMap
     }
@@ -204,8 +211,6 @@ object NepaliDateUtils {
         startWeekDayMonthMap.put(1997, intArrayOf(0, 7, 3, 6, 3, 6, 2, 5, 7, 1, 3, 4, 6))
         startWeekDayMonthMap.put(1998, intArrayOf(0, 1, 4, 7, 4, 7, 3, 6, 1, 2, 4, 5, 7))
         startWeekDayMonthMap.put(1999, intArrayOf(0, 2, 5, 2, 5, 2, 5, 7, 2, 4, 5, 6, 1))
-
-        /*old*/
         startWeekDayMonthMap.put(2000, intArrayOf(0, 4, 6, 3, 6, 3, 6, 1, 3, 5, 6, 1, 2))
         startWeekDayMonthMap.put(2001, intArrayOf(0, 5, 1, 4, 1, 4, 7, 3, 5, 6, 1, 2, 4))
         startWeekDayMonthMap.put(2002, intArrayOf(0, 6, 2, 5, 2, 6, 2, 4, 6, 7, 2, 3, 5))
@@ -288,27 +293,26 @@ object NepaliDateUtils {
         startWeekDayMonthMap.put(2079, intArrayOf(0, 5, 1, 4, 1, 4, 7, 3, 5, 6, 1, 2, 4))
         startWeekDayMonthMap.put(2080, intArrayOf(0, 6, 2, 6, 2, 6, 2, 4, 6, 1, 2, 3, 5))
         startWeekDayMonthMap.put(2081, intArrayOf(0, 7, 3, 7, 3, 7, 3, 5, 7, 2, 3, 5, 6))
-        startWeekDayMonthMap.put(2082, intArrayOf(0, 2, 4, 1, 4, 1, 4, 6, 1, 3, 4, 6, 1))
-        startWeekDayMonthMap.put(2083, intArrayOf(0, 3, 6, 2, 6, 2, 5, 7, 2, 4, 5, 7, 2))
-        startWeekDayMonthMap.put(2084, intArrayOf(0, 4, 7, 3, 7, 3, 6, 1, 3, 5, 6, 1, 3))
-        startWeekDayMonthMap.put(2085, intArrayOf(0, 5, 1, 5, 1, 5, 7, 3, 5, 7, 1, 3, 5))
-        startWeekDayMonthMap.put(2086, intArrayOf(0, 7, 2, 6, 2, 6, 2, 4, 6, 1, 2, 4, 6))
-        startWeekDayMonthMap.put(2087, intArrayOf(0, 1, 4, 7, 4, 7, 3, 6, 1, 3, 4, 6, 1))
-        startWeekDayMonthMap.put(2088, intArrayOf(0, 3, 5, 1, 5, 2, 4, 7, 2, 4, 5, 7, 2))
-        startWeekDayMonthMap.put(2089, intArrayOf(0, 4, 6, 3, 6, 3, 6, 1, 3, 5, 6, 1, 3))
-        startWeekDayMonthMap.put(2090, intArrayOf(0, 5, 7, 4, 7, 4, 7, 2, 4, 6, 7, 2, 4))
-        /*  */ /*start of new but dummy data just for test todo fix with real data*/ /*
-        startWeekDayMonthMap.put(2091, new int[]{0, 5, 1, 4, 1, 4, 7, 3, 5, 6, 1, 2, 4});
-        startWeekDayMonthMap.put(2092, new int[]{0, 6, 2, 5, 2, 6, 2, 4, 6, 7, 2, 3, 5});
-        startWeekDayMonthMap.put(2093, new int[]{0, 7, 3, 7, 3, 7, 3, 5, 7, 2, 3, 4, 6});
-        startWeekDayMonthMap.put(2094, new int[]{0, 2, 4, 1, 4, 1, 4, 6, 1, 3, 4, 6, 7});
-        startWeekDayMonthMap.put(2095, new int[]{0, 3, 6, 2, 6, 2, 5, 1, 3, 4, 6, 7, 2});
-        startWeekDayMonthMap.put(2096, new int[]{0, 4, 7, 3, 7, 4, 7, 2, 4, 5, 7, 1, 3});
-        startWeekDayMonthMap.put(2097, new int[]{0, 5, 1, 5, 1, 5, 1, 3, 5, 7, 1, 2, 4});
-        startWeekDayMonthMap.put(2098, new int[]{0, 7, 3, 6, 2, 6, 2, 5, 6, 1, 3, 4, 5});
-        startWeekDayMonthMap.put(2099, new int[]{0, 1, 4, 7, 4, 7, 3, 6, 1, 2, 4, 5, 7});
-        startWeekDayMonthMap.put(2100, new int[]{0, 4, 6, 3, 6, 3, 6, 1, 3, 5, 6, 1, 2});
-        */
+        startWeekDayMonthMap.put(2082, intArrayOf(0, 2, 5, 1, 4, 1, 4, 7, 2, 3, 5, 6, 1))
+        startWeekDayMonthMap.put(2083, intArrayOf(0, 3, 6, 2, 6, 2, 5, 1, 3, 4, 6, 7, 2))
+        startWeekDayMonthMap.put(2084, intArrayOf(0, 4, 7, 4, 7, 4, 7, 2, 4, 6, 7, 1, 3))
+        startWeekDayMonthMap.put(2085, intArrayOf(0, 6, 1, 5, 1, 5, 1, 3, 5, 7, 1, 3, 4))
+        startWeekDayMonthMap.put(2086, intArrayOf(0, 7, 3, 6, 3, 6, 2, 5, 7, 1, 3, 4, 6))
+        startWeekDayMonthMap.put(2087, intArrayOf(0, 1, 4, 7, 4, 1, 4, 6, 1, 2, 4, 5, 7))
+        startWeekDayMonthMap.put(2088, intArrayOf(0, 2, 5, 2, 5, 2, 5, 7, 2, 4, 5, 6, 1))
+        startWeekDayMonthMap.put(2089, intArrayOf(0, 4, 6, 3, 6, 3, 6, 1, 3, 5, 6, 1, 2))
+        startWeekDayMonthMap.put(2090, intArrayOf(0, 5, 1, 4, 1, 4, 7, 3, 5, 6, 1, 2, 4))
+        startWeekDayMonthMap.put(2091, intArrayOf(0, 6, 2, 5, 2, 6, 2, 4, 6, 7, 2, 3, 5))
+        startWeekDayMonthMap.put(2092, intArrayOf(0, 7, 3, 7, 3, 7, 3, 5, 7, 2, 3, 4, 6))
+        startWeekDayMonthMap.put(2093, intArrayOf(0, 2, 5, 1, 4, 1, 4, 7, 1, 3, 5, 6, 7))
+        startWeekDayMonthMap.put(2094, intArrayOf(0, 3, 6, 2, 6, 2, 5, 1, 3, 4, 6, 7, 2))
+        startWeekDayMonthMap.put(2095, intArrayOf(0, 4, 7, 3, 7, 4, 7, 2, 4, 5, 7, 1, 3))
+        startWeekDayMonthMap.put(2096, intArrayOf(0, 5, 1, 5, 1, 5, 1, 3, 5, 7, 1, 2, 4))
+        startWeekDayMonthMap.put(2097, intArrayOf(0, 7, 3, 6, 2, 6, 2, 5, 6, 1, 3, 4, 6))
+        startWeekDayMonthMap.put(2098, intArrayOf(0, 1, 4, 7, 4, 7, 3, 6, 1, 2, 4, 5, 7))
+        startWeekDayMonthMap.put(2099, intArrayOf(0, 2, 5, 1, 5, 2, 5, 7, 2, 3, 5, 6, 1))
+        startWeekDayMonthMap.put(2100, intArrayOf(0, 3, 6, 3, 6, 3, 6, 1, 3, 5, 6, 7, 2))
+
         return startWeekDayMonthMap
     }
 
